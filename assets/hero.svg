@@ -50,7 +50,7 @@
     </g>
 
     <!-- signal -->
-    <g transform="translate(780 150)">
+    <g transform="translate(780 112)">
       <path class="wave" fill="none" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"
         d="M0 60 H40 L52 60 L60 20 L70 100 L80 40 L88 76 L96 60 H130 L138 60 L146 0 L156 120 L166 30 L174 84 L182 60 H230 L240 60 L248 36 L258 90 L268 46 L276 70 L284 60 H340"/>
       <line x1="0" y1="60" x2="340" y2="60" stroke="#fff" stroke-opacity="0.12"/>
