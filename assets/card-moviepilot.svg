@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 168" width="580" height="168" role="img" aria-label="MoviePilot-Plugins">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f222b"/><stop offset="1" stop-color="#173441"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8c27e"/><stop offset="1" stop-color="#8fd3d6"/></linearGradient>
+    <radialGradient id="g" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f8c27e" stop-opacity=".35"/><stop offset="1" stop-color="#f8c27e" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="580" height="168" rx="18"/></clipPath>
+    <style>
+      .t{font-family:"SF Pro Display","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+      .m{font-family:"JetBrains Mono","SF Mono",Menlo,Consolas,monospace}
+      .glow{animation:p 6s ease-in-out infinite;transform-origin:520px 30px}
+      @keyframes p{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.15)}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="580" height="168" fill="url(#bg)"/>
+    <circle class="glow" cx="520" cy="30" r="150" fill="url(#g)"/>
+    <rect width="5" height="168" fill="url(#ac)"/>
+    <rect x="30" y="28" width="52" height="52" rx="14" fill="url(#ac)"/>
+    <text x="56" y="64" text-anchor="middle" class="t" font-size="26" font-weight="700" fill="#0f222b">▶</text>
+    <text x="100" y="52" class="t" font-size="24" font-weight="700" fill="#eef6f7">MoviePilot-Plugins</text>
+    <text x="100" y="76" class="m" font-size="13" fill="#7f9ca4">madrays/MoviePilot-Plugins</text>
+    <text x="30" y="118" class="t" font-size="17" fill="#c9dadd">MoviePilot 个人插件集合，补齐自动化影音的边角。</text>
+    <circle cx="36" cy="144" r="6" fill="#3572A5"/>
+    <text x="50" y="149" class="m" font-size="13" fill="#9fb8bf">Python</text>
+    <text x="550" y="149" text-anchor="end" class="m" font-size="13" fill="#f8c27e">view repo →</text>
+  </g>
+  <rect x=".5" y=".5" width="579" height="167" rx="18" fill="none" stroke="#f8c27e" stroke-opacity=".22"/>
+</svg>
